@@ -1,4 +1,4 @@
-package com.gblfy.flowable.listen;
+package com.wustzdy.springboot.flowable.listen;
 
 import org.flowable.engine.delegate.TaskListener;
 import org.flowable.task.service.delegate.DelegateTask;
@@ -8,9 +8,10 @@ import org.flowable.task.service.delegate.DelegateTask;
  * @Description:
  * @Date:
  */
-public class ManagerTaskHandler implements TaskListener {
+public class BossTaskHandler implements TaskListener {
+
     @Override
     public void notify(DelegateTask delegateTask) {
-        delegateTask.setAssignee("经理");
+        delegateTask.setAssignee("老板");
     }
 }

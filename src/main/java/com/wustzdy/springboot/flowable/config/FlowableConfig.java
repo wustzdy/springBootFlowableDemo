@@ -1,4 +1,4 @@
-package com.gblfy.flowable.config;
+package com.wustzdy.springboot.flowable.config;
 
 import org.flowable.spring.SpringProcessEngineConfiguration;
 import org.flowable.spring.boot.EngineConfigurationConfigurer;
